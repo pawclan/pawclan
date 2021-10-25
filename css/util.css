@@ -1,0 +1,234 @@
+
+
+/*//////////////////////////////////////////////////////////////////
+[ REBOOT ]*/
+*, *:before, *:after {
+	margin: 0px; 
+	padding: 0px; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body, html {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	color: #666666;
+
+	height: 100%;
+	background-color: #fff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*---------------------------------------------*/
+a:focus {outline: none;}
+a:hover {text-decoration: none;}
+
+/* ------------------------------------ */
+h3,p {margin: 0px;}
+
+
+/* ------------------------------------ */
+input {
+	display: block;
+	outline: none;
+	border: none;
+}
+
+/* ------------------------------------ */
+button {
+	outline: none;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+button:focus {outline: none;}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT SIZE ]*/
+
+/*//////////////////////////////////////////////////////////////////
+[ PADDING ]*/
+.p-t-24 {padding-top: 24px;}
+.p-t-25 {padding-top: 25px;}
+.p-t-34 {padding-top: 34px;}
+.p-t-50 {padding-top: 50px;}
+.p-b-18 {padding-bottom: 18px;}
+.p-b-35 {padding-bottom: 35px;}
+.p-b-43 {padding-bottom: 43px;}
+.p-b-60 {padding-bottom: 60px;}
+.p-b-125 {padding-bottom: 125px;}
+.p-l-15 {padding-left: 15px;}
+.p-l-40 {padding-left: 40px;}
+.p-l-45 {padding-left: 45px;}
+.p-r-15 {padding-right: 15px;}
+.p-r-45 {padding-right: 45px;}
+.p-r-74 {padding-right: 74px;}
+.p-r-200 {padding-right: 200px;}
+
+/*//////////////////////////////////////////////////////////////////
+[ MARGIN ]*/
+.m-t-10 {margin-top: 10px;}
+.m-b-10 {margin-bottom: 10px;}
+.m-b-20 {margin-bottom: 20px;}
+.m-r-6 {margin-right: 6px;}
+.m-r-30 {margin-right: 30px;}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ TEXT ]*/
+
+/*------------------------------------------------------------------
+[ Line height ]*/
+
+/* ------------------------------------ */
+.txt-center {text-align: center;}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ SIZE ]*/
+.w-full {width: 100%;}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ BACKGROUND ]*/
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ PSEUDO ]*/
+
+/*------------------------------------------------------------------
+[ Hover ]*/
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ EFFECT ]*/
+
+/*------------------------------------------------------------------
+[ Opacity ]*/
+
+
+/*------------------------------------------------------------------
+[ Wrap Picture ]*/
+
+/* ------------------------------------ */
+
+/* ------------------------------------ */
+
+/*------------------------------------------------------------------
+[  ]*/
+
+
+/*------------------------------------------------------------------
+[ Transition ]*/
+.trans-04 {
+	-webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ POSITION ]*/
+
+/*------------------------------------------------------------------
+[ Display ]*/
+
+.flex-w,
+.flex-sa,
+.flex-c-m,
+.flex-sb-m {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+/*------------------------------------------------------------------
+[ Position ]*/
+
+/*------------------------------------------------------------------
+[ Float ]*/
+
+
+/*------------------------------------------------------------------
+[ Top Bottom Left Right ]*/
+
+
+/*------------------------------------------------------------------
+[ Flex ]*/
+/* ------------------------------------ */
+.flex-w {
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+/* ------------------------------------ */
+
+.flex-sa {
+	justify-content: space-around;
+}
+
+/* ------------------------------------ */
+
+
+/* ------------------------------------ */
+.flex-c-m {
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.flex-sb-m {
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+/* ------------------------------------ */
+
+/*---------------------------------------------*/
+
+/*---------------------------------------------*/
+
+
+/* ------------------------------------ */
+
+
+/*------------------------------------------------------------------
+[ Absolute ]*/
+
+.contact-us{
+	background: white;
+    padding: 0.5rem 2.5rem;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 34px;
+    color: #0A3148;
+    border-radius: 2rem;
+	box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+}
+
+.sub-text{
+	font-family: 'Montserrat-Regular';
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin-top: 1.7rem;
+}
+
